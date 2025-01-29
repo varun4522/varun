@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun Kumar</title>
+    <script src="https://kit.fontawesome.com/b70c6fa44a.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    font-size: 24px;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+}
+
+.right ul li {
+    margin-left: 20px;
+}
+
+.right ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Section Layout */
+main {
+    padding: 20px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstsection .leftsection {
+    flex: 1;
+}
+
+.firstsection .rightsection {
+    flex: 1;
+}
+
+.rightsection img {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Box Layout for Education */
+.secondsection .box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondsection .vertical {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+.secondsection .vertical img {
+    width: 100px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer-first {
+    font-size: 20px;
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer ul li {
+    margin-left: 15px;
+}
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .firstsection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .firstsection .rightsection {
+        margin-top: 20px;
+    }
+
+    .secondsection .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .flex {
+        flex-direction: column;
+    }
+
+    .footer .footer-first {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .search-bar input {
+        width: 80%;
+    }
+
+    .right ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .footer ul {
+        flex-direction: column;
+    }
+
+    .footer .flex {
+        text-align: center;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Varun Kumar</div>
+            <div class="right">
+                <ul>
+                    <li><a href="C:/Users/Admin/Desktop/coading/website.html">Home</a></li>
+                    <li><a href="C:/Users/Admin/Desktop/coading/about.html">About</a></li>
+                    <li><a href="C:/Users/Admin/Desktop/coading/Projects.html">Education</a></li>
+                    <li><a href="C:/Users/Admin/Desktop/coading/contacts.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <center>
+        <div class="searchandbutton">
+            <div class="search-bar">
+                <input type="search" placeholder="search..." style="width: 40%; height: 40px; padding: 15px; border-radius: 70px;">
+                <button type="submit">search</button>
+            </div>
+            <br><br>
+            <div class="buttons">
+                <button class="btn">
+                    <div class="header__buttons">
+                        <a href="resume.pdf" class="btn btn-outline">
+                            <ul>
+                                <i class="fa-solid fa-arrow-down-long"></i>
+                            </ul>
+                        </a>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </center>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hii, I am <span class="allo">Varun</span> <br> and I am a<br>
+                <span id="element"></span> 
+                <script>
+                    var typed = new Typed('#element', {
+                        strings: ['App Developer', 'Web Developer'],
+                        typeSpeed: 70,
+                        loop: true,
+                    });
+                </script>
+            </div>
+            <div class="rightsection">
+                <img src="image.png" alt="">
+            </div>
+        </section>
+
+        <hr class="hredit">
+
+        <section class="thirdsection">
+            <span class="thirdgrey-text">What I have done so far</span>
+            <h1 class="thirdadjust">About</h1>
+            <p>I am Varun Kumar, and I am from Narnaul, Haryana. Currently, I have graduated from SGT University with a BTech in CSE.</p>
+        </section>
+
+        <hr class="hredit">
+
+        <section class="secondsection">
+            <span class="grey-text">What I have done so far</span>
+            <h1>Education Qualification</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developerlogo.png" alt="">
+                    <div class="vertical-text">
+                        Class 1 to 12 (2011-2022)
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developerlogo.png" alt="">
+                    <div class="vertical-text">
+                        Drop Year (2023-2024)
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developerlogo.png" alt="">
+                    <div class="vertical-text">
+                        Graduation Year (2024-2028)
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="hredit">
+
+        <section class="fourthsection">
+            <span class="fourthgrey-text">What I have done so far</span>
+            <h4 class="fourthadjust">Contact</h4>
+        </section>
+    </main>
+
+    <br>
+    <footer class="footer">
+        <div class="flex">
+            <div class="footer-first">
+                Varun's Developer
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <a href="https://www.instagram.com/ivarun.k/">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <a href="https://snapchat.com/t/mA3sVgMl">
+                        <i class="fa-brands fa-square-snapchat"></i>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <a href="https://github.com/varun4522">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="rights">© 2024 Varun. All Rights Reserved.</div>
+    </footer>
+</body>
+</html>
