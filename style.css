@@ -1,0 +1,233 @@
+//float property image ko text k idhar udhar karna 
+//position text k upper or lower 
+//pseudo class a:link hover visited active <a>
+//shadow text-shadow box-shadow
+//icons on website 
+//transformlef right on many types of design etc like as 3d art (https://youtu.be/wRNinF7YQqQ?si=1fxfESbePQNFLRRX)
+//animation (https://youtu.be/wRNinF7YQqQ?si=1fxfESbePQNFLRRX)
+//responsive (https://youtu.be/HG10yrq1pbk?si%3D5uIXzAf_ecjvCqmJ)
+//portfoliourl(https://youtu.be/oFnIe-RpkE4?si%3Dio0RfQ7Xhwq1tuSI)
+//website hosturl(https://youtu.be/4eMnz8VbgyM?si%3DV3JEXK654Uu_MRE1)
+// css crash courseurl(https://youtu.be/K1naz9wBwKU?si%3DzaeG-WN2cTNeSe3L)
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(1, 1, 41);
+    Color: white;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(6, 6, 85)
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(124, 124, 240);
+    font-size: 1.38rem;
+}
+.search-bar{
+    width:950px;
+}
+.searchandbutton{
+    display: flex;
+    margin-left:424px;
+    margin-right: -148px;
+}
+.btn{
+    font-size: 11px;
+    margin-right: 15px;
+}
+.searchbutton{
+    display:flex
+}
+.header__buttons{
+    margin-right: 32px;
+}
+.left{
+    font-size: 3.0rem;
+}
+.right{
+    font-size: 1.4rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 140px;
+    margin-left: 90px;
+}
+.firstsection div{
+    width: 48%;
+}
+.leftsection{
+    font-size: 58px;
+}
+.rightsection img{
+    width: 380px;
+}
+.allo{
+    color: #8a2be2;
+}
+main hr{
+    border: 0;
+    background-color: #a7a3dd;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+#element{
+    color: #8a2be2;    
+} 
+.secondsection{
+    margin-left: 90px;
+    margin-top: -32px;
+    height: 185px;
+}
+.aboutpp{
+    margin-right:57px;
+}
+.grey-text{
+    color: grey;
+    height: 2px;
+}
+.hredit{
+    margin-top: 270px;
+}
+.secondhredit{
+    margin-top: 187px;
+    border: 0;
+    background-color: #a7a3dd;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.secondsection h1{
+    font-size: 45px;
+}
+.secondsection .box{
+    background-color: antiquewhite;
+    width: 80vw;
+    height: 2px;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 91px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+.vertical-text{
+    margin-bottom: 46px;
+    margin-top: 73px;
+}
+.image-top{
+    height: 44px;
+} 
+.thirdsection{
+    margin-left: 90px;
+    margin-top: -40px;
+    height: 130px;    
+}
+.thirdadjust{
+    font-size: 45px;
+    margin-top: 20px;
+    //animation: myslide;
+    animation-iteration-count: infinite; 
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-timing-function: linear;
+
+}
+@keyframes myslide{
+    from{margin-left:100%;}
+    to{margin-left: 0%;}
+}
+.thirdgrey-text{
+    color: grey;
+    margin-top: 2px;
+}
+.fourthsection{
+    margin-top: 50px;
+    margin-left: 87px;
+    height: 900px;
+}
+.fourthgrey-text{
+    color: grey;
+    margin-top: 2px;
+} 
+.fourthadjust{
+    font-size: 45px;
+}
+.footer{
+    background-color: black;
+}
+.footer-first{
+    width: 120px;
+    Height: 82px;
+    font-size: 30px;
+    margin-left: 83px;
+}
+.footer > div{
+    width: 120px;
+}
+.footer-second{
+    margin-left: 212px;
+    margin-top: 20px;
+}
+.footer-third{
+    margin-left: 212px;
+    margin-top: 20px;
+}
+.footer-fourth{
+    margin-left: 212px;
+    margin-top: 20px;
+}
+.footer .rights{
+    padding: 15px 0;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 82px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 256px;
+    color: grey;
+}
+.footer .flex{
+    display: flex;
+}
+.fa-github{
+    color:black;
+    background-color: white;
+    font-size: 67px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    padding: 4px;
+}
+.fa-square-snapchat{
+    color:yellow;
+    font-size: 71px;
+}
+.fa-square-instagram{
+    color:palevioletred;
+    font-size: 71px;
+}
+.rights{
+    margin-bottom: -28px;
+}
